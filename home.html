@@ -4,17 +4,233 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home Page</title>
+    <!-- font-awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
   </head>
   <body>
     <header>
       <nav>
-        <div>
-          <div></div>
-          <div></div>
+        <div class="logo-name">
+          <img src="./assets/logo.png" alt="Logo" width="50" height="50" />
+          <h1>Emergency<br />Service</h1>
         </div>
-        <div></div>
+        <div class="all-buttons">
+          <button>
+            <img src="./assets/heart.png" alt="Logo" width="30" height="30" />
+          </button>
+          <button>
+            <img src="./assets/coin.png" alt="Logo" width="24" height="24" />
+          </button>
+          <button>Copy</button>
+        </div>
       </nav>
     </header>
-    <main></main>
+    <main>
+      <section class="banner">
+        <img src="./assets/logo-dark.png" alt="Logo" width="92" height="92" />
+        <h1>জরুরি সেবা ডিরেক্টরি</h1>
+        <p>
+          Government Emergency Services at Your Fingertip – A Project by
+          Government of the People’s Republic of Bangladesh
+        </p>
+      </section>
+      <section class="details">
+        <div class="contents">
+          <div class="single-content">
+            <div class="description">
+              <img
+                src="./assets/emergency.png"
+                alt="Emergency"
+                width="60"
+                height="60"
+              />
+              <h1>জাতীয় জরুরি সেবা</h1>
+              <p>National Emergency</p>
+              <h1>999</h1>
+              <p>সার্বজনীন</p>
+            </div>
+            <div class="double">
+              <button class="copy">Copy</button>
+              <button class="call">
+                <i class="fa-solid fa-phone"></i>Call
+              </button>
+            </div>
+          </div>
+          <div class="single-content">
+            <div class="description">
+              <img
+                src="./assets/police.png"
+                alt="Police"
+                width="60"
+                height="60"
+              />
+              <h1>পুলিশ</h1>
+              <p>Police</p>
+              <h1>999</h1>
+              <p>পুলিশ</p>
+            </div>
+            <div class="double">
+              <button class="copy">Copy</button>
+              <button class="call">
+                <i class="fa-solid fa-phone"></i>Call
+              </button>
+            </div>
+          </div>
+          <div class="single-content">
+            <div class="description">
+              <img
+                src="./assets/fire-service.png"
+                alt="Fire-Service"
+                width="60"
+                height="60"
+              />
+              <h1>ফায়ার সার্ভিস</h1>
+              <p>Fire Service</p>
+              <h1>999</h1>
+              <p>ফায়ার</p>
+            </div>
+            <div class="double">
+              <button class="copy">Copy</button>
+              <button class="call">
+                <i class="fa-solid fa-phone"></i>Call
+              </button>
+            </div>
+          </div>
+          <div class="single-content">
+            <div class="description">
+              <img
+                src="./assets/ambulance.png"
+                alt="Ambulance"
+                width="92"
+                height="92"
+              />
+              <h1>অ্যাম্বুলেন্স</h1>
+              <p>Ambulance</p>
+              <h1>999</h1>
+              <p>স্বাস্থ্য</p>
+            </div>
+            <div class="double">
+              <button class="copy">Copy</button>
+              <button class="call">
+                <i class="fa-solid fa-phone"></i>Call
+              </button>
+            </div>
+          </div>
+          <div class="single-content">
+            <div class="description">
+              <img
+                src="./assets/emergency.png"
+                alt="Emergency"
+                width="60"
+                height="60"
+              />
+              <h1>নারী ও শিশু সহায়তা</h1>
+              <p>Women & Child Helpline</p>
+              <h1>109</h1>
+              <p>সহায়তা</p>
+            </div>
+            <div class="double">
+              <button class="copy">Copy</button>
+              <button class="call">
+                <i class="fa-solid fa-phone"></i>Call
+              </button>
+            </div>
+          </div>
+          <div class="single-content">
+            <div class="description">
+              <img
+                src="./assets/emergency.png"
+                alt="Emergency"
+                width="60"
+                height="60"
+              />
+              <h1>দুদক</h1>
+              <p>Anti-Corruption</p>
+              <h1>106</h1>
+              <p>সরকারি</p>
+            </div>
+            <div class="double">
+              <button class="copy">Copy</button>
+              <button class="call">
+                <i class="fa-solid fa-phone"></i>Call
+              </button>
+            </div>
+          </div>
+          <div class="single-content">
+            <div class="description">
+              <img
+                src="./assets/emergency.png"
+                alt="Emergency"
+                width="60"
+                height="60"
+              />
+              <h1>বিদ্যুৎ বিভ্রাট</h1>
+              <p>Electricity Outage</p>
+              <h1>16120</h1>
+              <p>বিদ্যুৎ</p>
+            </div>
+            <div class="double">
+              <button class="copy">Copy</button>
+              <button class="call">
+                <i class="fa-solid fa-phone"></i>Call
+              </button>
+            </div>
+          </div>
+          <div class="single-content">
+            <div class="description">
+              <img
+                src="./assets/emergency.png"
+                alt="Emergency"
+                width="60"
+                height="60"
+              />
+              <h1>ব্র্যাক</h1>
+              <p>Brac</p>
+              <h1>4400</h1>
+              <p>এনজিও</p>
+            </div>
+            <div class="double">
+              <button class="copy">Copy</button>
+              <button class="call">
+                <i class="fa-solid fa-phone"></i>Call
+              </button>
+            </div>
+          </div>
+          <div class="single-content">
+            <div class="description">
+              <img
+                src="./assets/emergency.png"
+                alt="Emergency"
+                width="60"
+                height="60"
+              />
+              <h1>বাংলাদেশ রেলওয়ে</h1>
+              <p>Bangladesh Railway</p>
+              <h1>131</h1>
+              <p>পরিবহন</p>
+            </div>
+            <div class="double">
+              <button class="copy">Copy</button>
+              <button class="call">
+                <i class="fa-solid fa-phone"></i>Call
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="history">
+          <div class="history-buttons">
+            <h1>Call History</h1>
+            <button>Clear</button>
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
